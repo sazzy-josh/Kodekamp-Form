@@ -1,0 +1,128 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#auth-layout{
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.image-section{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+    max-height: 100%;
+    background: url(../img/pics.png);
+    background-position: center;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    
+}
+.image-section .header-2{
+    margin-top: 250px;
+    /* text-align: center; */
+    color: rgba(239, 230, 240, 0.904);
+    font-weight: 900;
+    font-family:'Times New Roman', Times, serif;
+    font-style:normal;
+}
+.image-section .header-2 h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: rgb(202, 221, 205);
+    padding-right:20px;
+    font-family: sans-serif;
+}
+.image-section h1{
+    text-align: center;
+    color: rgba(239, 230, 240, 0.904);
+    font-weight: 900;
+    font-family:'Times New Roman', Times, serif;
+    font-style:normal;
+    margin-top: 8px;   
+    font-size: 60px; 
+    display: flex;
+    justify-content:flex-end;
+    padding-right:20px;
+}
+#auth-layout .image-section h1 span{
+    color: rgb(3, 75, 15);
+}
+ .form-section{
+    width: 50% ;
+    height: 100vh;
+    background:rgb(243, 243, 208);
+    padding: 20px;
+}
+.form-section .form-row{
+    padding: 10px;
+}
+
+.form-section h1{
+    border: 0px solid black;
+    font-size: 
+    40px;
+    margin-top: 50px;;
+    color: rgb(43, 43, 104);
+    padding: 0 55px;
+}
+.form-row {
+    display: flex;
+    justify-content:space-evenly;
+    margin: 30px 25px;
+    width: 100%;
+}
+.form-row .row1{
+    width: 45%;
+    height: 20px; 
+    padding-left: 5px; 
+} 
+.form-row .row1 input[type="text"],
+.form-row .row1 select{
+    width: 90%;
+    height: 40px;
+    padding-left: 5px;
+}
+.button-section{
+    padding-left: 50px;
+    margin: 30px 25px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.button-section button{
+    background: darkcyan;
+    padding: 8px 20px;
+    border: 1px solid whitesmoke;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+}
+.row2{
+    padding-left: 58px;
+    /* width: 100%; */
+    margin-top: 40px;
+}
+.row2 textarea{
+    width: 95%;
+}
+.form-row .row1 label
+{
+    color:rgb(10, 3, 3);
+    font-weight: bold;
+}
+
+.row2 label{
+    color:rgb(10, 3, 3);
+    font-weight: bold;
+}
+.button-section button :hover{
+    text-decoration: underline;
+    text-shadow: yellowgreen;
+}
